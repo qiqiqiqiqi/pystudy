@@ -142,7 +142,7 @@ def demo_dict():
 
 # 集合
 def demo_set():
-    lista = [1, 2, 3]
+    lista = [1, 2, 3, 1]
     seta = set(lista)
     setb = set((2, 3, 4))
     print(1, seta)
@@ -234,7 +234,7 @@ def demo_re():
     * 至少匹配0次
     '''
     p1 = re.compile('[\d]+')
-    p2 = re.compile('\d')
+    p2 = re.compile('[\d]')
     print(1, p1.findall(str))
     print(2, p2.findall(str))
 
@@ -255,8 +255,8 @@ def demo_re():
 
 
 if __name__ == '__main__':
-   # qiushibaike()
-    # demo_re()
+    qiushibaike()
+   #  demo_re()
     # demo_random()
     # demo_exception()
     # user1=User('u1',1)
