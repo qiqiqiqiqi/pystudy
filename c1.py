@@ -87,7 +87,7 @@ def demo_controlflow():
 def demo_list():
     lista = [1, 2, 3]  # vector ArrayList
     print(1, lista)
-    listb = ['a', 1, 'c', 1.1]
+    listb = [7, 1,9, 3]
     print(2, listb)
     lista.extend(listb)
     print(3, lista)
@@ -95,9 +95,10 @@ def demo_list():
     print(5, 'a' in listb)
     lista = lista + listb
     print(6, lista)
-    listb.insert(0, 'www')
+    listb.insert(0, 11)
     print(7, listb)
     listb.pop(1)
+
     print(8, listb)
     listb.reverse()
     print(9, listb)
@@ -255,7 +256,7 @@ def demo_re():
 
 
 if __name__ == '__main__':
-    qiushibaike()
+    # qiushibaike()
    #  demo_re()
     # demo_random()
     # demo_exception()
@@ -267,10 +268,10 @@ if __name__ == '__main__':
     # print create_user('ANDJ')
     # print 'hello nowcoder'
     # comment
-    demo_string()
+    # demo_string()
     # demo_operation()
-    # demo_buildinfunction()
+    #  demo_buildinfunction()
     # demo_controlflow()
     # demo_list()
     # demo_dict()
-    # demo_set()
+    demo_set()
